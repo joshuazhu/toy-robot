@@ -1,0 +1,24 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "semistandard"
+  },
+  "dependencies": {
+    "jest": "^25.1.0",
+    "semistandard": "^14.2.0"
+  },
+  "semistandard": {
+    "globals": [
+      "it",
+      "jest",
+      "describe",
+      "expect",
+      "beforeEach",
+      "beforeAll"
+    ]
+  }
+}
